@@ -1,4 +1,11 @@
+import { Metadata } from "next";
 import SideNav from "../ui/dashboard/sidenav";
+
+// export const metadata: Metadata = {
+//     title: 'D' ,
+//     description: 'The official Next.js Course Dashboard, build with App Rounter',
+//     metadataBase: new URL('https://next-learn-dashboard.vercel.sh')
+// };
 
 export default function Layout({children} : {children: React.ReactNode}) {
     return (
